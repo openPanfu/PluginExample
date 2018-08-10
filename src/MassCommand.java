@@ -17,4 +17,9 @@ public class MassCommand implements ICommand {
             }
         }
     }
+
+    @Override
+    public String getDescription() {
+        return "!mass (action)";
+    }
 }
