@@ -20,6 +20,6 @@ public class MassCommand implements ICommand {
 
     @Override
     public String getDescription() {
-        return "!mass (action)";
+        return "!mass (action) - Forces all users in the room to do an action.";
     }
 }
